@@ -1,0 +1,61 @@
+/* Write your CSS code here */
+.blog-item-container {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media (max-width: 576px) {
+  .blog-item-container {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+.cover-image {
+  height: 200px;
+  width: 350px;
+}
+@media (max-width: 576px) {
+  .cover-image {
+    width: 100%;
+  }
+}
+
+.blog-list-details-container {
+  margin-left: 20px;
+}
+@media (max-width: 576px) {
+  .blog-list-details-container {
+    margin-left: 0px;
+  }
+}
+
+.author-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.author-image {
+  height: 35px;
+  width: 35px;
+  border-radius: 100%;
+}
+.author-name {
+  margin-left: 15px;
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.react-head {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 14px;
+  color: #d3d3d3;
+}
+.title {
+  text-decoration: none;
+  font-family: Roboto;
+  font-size: 18px;
+  color: #000000;
+}
